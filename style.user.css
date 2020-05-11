@@ -1,81 +1,94 @@
+/* ==UserStyle==
+@name           Material Scratch Forum Editor Buttons
+@namespace      github.com/easrng
+@version        1.0.0
+@description    Makes the Scratch forum editor look nicer.
+@author         A-E- (https://scratch.mit.edu/users/A-E-)
+@homepageURL    https://github.com/easrng/material-scratch-forum-editor-buttons
+@supportURL     https://github.com/easrng/material-scratch-forum-editor-buttons
+@updateURL      https://easrng.github.io/material-scratch-forum-editor-buttons/style.user.css
+@license        MIT
+==/UserStyle== */
 
-.markItUp .markItUpButton1 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_bold/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton2 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_italic/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton3 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_underlined/v5/24px.svg?download=true);
-	background-size:20px;
-}
+@-moz-document url-prefix("https://scratch.mit.edu/discuss/") {
+    .markItUp .markItUpButton1 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_bold/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton2 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_italic/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton3 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_underlined/v5/24px.svg?download=true");
+        background-size: 20px;
+    }
 
-.markItUp .markItUpButton4 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/strikethrough_s/v6/24px.svg?download=true);
-	background-size:20px;
-}
+    .markItUp .markItUpButton4 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/strikethrough_s/v6/24px.svg?download=true");
+        background-size: 20px;
+    }
 
-.markItUp .markItUpButton5 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/insert_photo/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton6 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/insert_link/v4/24px.svg?download=true);
-	background-size:20px;
-}
+    .markItUp .markItUpButton5 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/insert_photo/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton6 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/insert_link/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
 
-.markItUp .markItUpButton7 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_size/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton8 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_list_bulleted/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton9 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_list_numbered/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton10 a	{
-	background-image:url(https://gist.githubusercontent.com/easrng/4f63ce27f1970632528143430698db89/raw/f20856e9c4ab9ea176207f4980556c3fa4ec87b4/listitem.svg);
-	background-size:20px;
-}
+    .markItUp .markItUpButton7 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_size/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton8 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_list_bulleted/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton9 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_list_numbered/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton10 a {
+        background-image: url("https://gist.githubusercontent.com/easrng/4f63ce27f1970632528143430698db89/raw/f20856e9c4ab9ea176207f4980556c3fa4ec87b4/listitem.svg");
+        background-size: 20px;
+    }
 
-.markItUp .markItUpButton11 a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/format_quote/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .markItUpButton12>a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/insert_emoticon/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .browser-os-button a	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/computer/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .clean a {
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/code/v4/24px.svg?download=true);
-	background-size:20px;
-}
-.markItUp .preview a {
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/done/v4/24px.svg?download=true);
-	background-size:20px;
-}
-#ibbBtn	{
-	background-image:url(https://fonts.gstatic.com/s/i/materialicons/cloud_upload/v4/24px.svg?download=true) !important;
-	background-size:20px;
-}
-.markItUpHeader ul .markItUpDropMenu:before{
-	content:url(https://fonts.gstatic.com/s/i/materialicons/expand_more/v4/24px.svg?download=true);
-	width: 24px;
-	position:absolute;
-	right: -16px;
-	overflow: visible;
-	transform: scale(0.6);
-	top: -1px;
-}
-.markItUpHeader ul .markItUpDropMenu{
-	background: transparent;
+    .markItUp .markItUpButton11 a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_quote/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .markItUpButton12 > a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/insert_emoticon/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .browser-os-button a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/computer/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .clean a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/code/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    .markItUp .preview a {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/done/v4/24px.svg?download=true");
+        background-size: 20px;
+    }
+    #ibbBtn {
+        background-image: url("https://fonts.gstatic.com/s/i/materialicons/cloud_upload/v4/24px.svg?download=true") !important;
+        background-size: 20px;
+    }
+    .markItUpHeader ul .markItUpDropMenu:before {
+        content: url("https://fonts.gstatic.com/s/i/materialicons/expand_more/v4/24px.svg?download=true");
+        width: 24px;
+        position: absolute;
+        right: -16px;
+        overflow: visible;
+        transform: scale(0.6);
+        top: -1px;
+    }
+    .markItUpHeader ul .markItUpDropMenu {
+        background: transparent;
+    }
 }
