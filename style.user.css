@@ -9,7 +9,6 @@
 @updateURL      https://easrng.github.io/material-scratch-forum-editor-buttons/style.user.css
 @license        MIT
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://scratch.mit.edu/discuss/") {
     .markItUp .markItUpButton1 a {
         background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_bold/v4/24px.svg?download=true");
@@ -91,4 +90,72 @@
     .markItUpHeader ul .markItUpDropMenu {
         background: transparent;
     }
+    .markItUp .markItUpButton12-1 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/smile.png"] {
+        background-image: url("https://smilies.glitch.me/smile.svg");
+    }
+
+    .markItUp .markItUpButton12-2 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/neutral.png"] {
+        background-image: url("https://smilies.glitch.me/neutral.svg");
+    }
+
+    .markItUp .markItUpButton12-3 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/sad.png"] {
+        background-image: url("https://smilies.glitch.me/sad.svg");
+    }
+
+    .markItUp .markItUpButton12-4 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/big_smile.png"] {
+        background-image: url("https://smilies.glitch.me/big_smile.svg");
+    }
+
+    .markItUp .markItUpButton12-5 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/yikes.png"] {
+        background-image: url("https://smilies.glitch.me/yikes.svg");
+    }
+
+    .markItUp .markItUpButton12-6 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/wink.png"] {
+        background-image: url("https://smilies.glitch.me/wink.svg");
+    }
+
+    .markItUp .markItUpButton12-7 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/hmm.png"] {
+        background-image: url("https://smilies.glitch.me/hmm.svg");
+    }
+
+    .markItUp .markItUpButton12-8 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/tongue.png"] {
+        background-image: url("https://smilies.glitch.me/tongue.svg");
+    }
+
+    .markItUp .markItUpButton12-9 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/lol.png"] {
+        background-image: url("https://smilies.glitch.me/lol.svg");
+    }
+
+    .markItUp .markItUpButton12-10 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/mad.png"] {
+        background-image: url("https://smilies.glitch.me/mad.svg");
+    }
+
+    .markItUp .markItUpButton12-11 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/roll.png"] {
+        background-image: url("https://smilies.glitch.me/roll.svg");
+    }
+
+    .markItUp .markItUpButton12-12 a,
+    [src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/cool.png"] {
+        background-image: url("https://smilies.glitch.me/cool.svg");
+    }
+
+    img[src*="//cdn.scratch.mit.edu/scratchr2/static/"][src*="djangobb_forum/img/smilies/"] {
+        object-position: 999999px 999999px;
+        margin-bottom: -3px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
 }
