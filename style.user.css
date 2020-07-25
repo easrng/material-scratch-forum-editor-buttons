@@ -74,7 +74,7 @@
         background-image: url("https://fonts.gstatic.com/s/i/materialicons/done/v4/24px.svg?download=true");
         background-size: 20px;
     }
-    #ibbBtn {
+    #ibbBtn, #uploadButton {
         background-image: url("https://fonts.gstatic.com/s/i/materialicons/cloud_upload/v4/24px.svg?download=true") !important;
         background-size: 20px;
     }
