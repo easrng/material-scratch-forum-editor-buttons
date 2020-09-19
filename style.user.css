@@ -10,6 +10,9 @@
 @license        MIT
 ==/UserStyle== */
 @-moz-document url-prefix("https://scratch.mit.edu/discuss/") {
+    :root {
+        --material-buttons: 1;
+    }
     .markItUp .markItUpButton1 a {
         background-image: url("https://fonts.gstatic.com/s/i/materialicons/format_bold/v4/24px.svg?download=true");
         background-size: 20px;
